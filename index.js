@@ -27,14 +27,3 @@ class Formatter {
   return results.join( " " );
 }
 }
-
-// let arrayOfSentence = sentence.split(' ')
-//     for ( let x = 0; x < arrayOfSentence.length; x++ ) {
-//         if ( x == 0 ) {
-//           result.push(this.capitalize(arrayOfSentence[x]) )
-//         } else {
-//           if (keepSmall.includes(arrayOfSentence[x]) ) {
-//             result.push( arrayOfSentence[x] )
-//           } else {
-//             result.push(this.capitalize(arrayOfSentence[x]) )
-//           }
